@@ -261,9 +261,9 @@ code { font-family: ui-monospace, Consolas, monospace; font-size: 0.92em; backgr
   .lesson-head h1 { font-size: 1.75rem; }
   .terms { grid-template-columns: 1fr; gap: 4px; }
   .terms dt { justify-self: start; margin-top: 8px; }
-  .compare { font-size: 0.88rem; }
-  .compare th, .compare td { padding: 6px 8px; }
-  .compare tbody th { white-space: normal; }
+  .compare { display: block; overflow-x: auto; font-size: 0.88rem; } /* 欄位多時在表格內橫向捲動 */
+  .compare th, .compare td { padding: 6px 8px; min-width: 6em; }
+  .compare tbody th { min-width: 0; }
   .lesson-nav { grid-template-columns: 1fr 1fr; }
   .lesson-nav .home { grid-column: 1 / -1; grid-row: 2; }
 }
