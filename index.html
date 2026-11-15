@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>辯論社課手帳</title>
+  <meta name="description" content="辯論社的社課講義網站：每週一堂，把辯論拆成看得懂、練得會的小單元。">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main class="page">
+    <section class="sheet hero">
+      <h1>辯論社課手帳</h1>
+      <p class="lead">每週一堂，把辯論拆成看得懂、練得會的小單元。</p>
+      <p>這裡收錄辯論社每一次社課的講義。每堂課的格式都一樣：先看「本堂目標」，讀完內容後做「課堂練習」，最後用「重點回顧」檢查自己記住了多少。上課時可以跟著看，課後也可以拿來複習。</p>
+
+      <h2 class="section-title" id="lessons">講義列表</h2>
+      <div class="filters" id="unit-filters" role="group" aria-label="依單元篩選"></div>
+      <!-- 講義卡片由 assets/site.js 依 assets/lessons.js 自動產生，請勿手動新增 -->
+      <ul class="lesson-list" id="lesson-list"></ul>
+      <noscript><p>請開啟瀏覽器的 JavaScript 以顯示講義列表。</p></noscript>
+
+      <h2 class="section-title" id="about">關於這個網站</h2>
+      <div class="about">
+        <p>這個網站不是一頁一頁手工做出來的，而是先寫好一份規則文件 <code>AGENTS.md</code>，說明講義的結構、命名方式、可用元件與文字風格，再請 AI 依照規則產生每一堂講義。</p>
+        <p>所以之後要新增一堂課，只需要告訴 AI「這堂課想教什麼」，它就會複製範本、寫好內容、把新講義登記到清單裡，首頁的卡片與上下堂連結會自動更新。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/lessons.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

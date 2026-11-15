@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 範本：複製到 lessons/NN-英文短名.html 後再修改，不要直接改這個檔案（見 AGENTS.md 第 10 節） -->
+  <title>第 NN 堂｜講義標題 — 辯論社課手帳</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-page="lesson" data-lesson-id="NN">
+  <header id="site-header"></header>
+
+  <main class="page">
+    <article class="sheet lesson">
+
+      <!-- 1. 頁首：kicker 留空，由 site.js 自動填入堂次、單元、標籤 -->
+      <header class="lesson-head">
+        <p class="lesson-kicker" id="lesson-kicker"></p>
+        <h1>講義標題</h1>
+        <p class="lead">用一句話說明這堂課在學什麼。</p>
+      </header>
+
+      <!-- 2. 本堂目標：剛好 3 點，動詞開頭 -->
+      <section class="goals">
+        <h2>本堂目標</h2>
+        <ul>
+          <li>說出……</li>
+          <li>分辨……</li>
+          <li>寫出……</li>
+        </ul>
+      </section>
+
+      <!-- 3. 內容段落：2～4 段，每段至少使用 1 個元件（元件清單見 AGENTS.md 第 7 節） -->
+      <section class="content">
+        <h2>第一個小標題</h2>
+        <p>說明文字，每段不超過 4 行。</p>
+        <aside class="sticky">這一段最想讓學生記住的一句話。</aside>
+      </section>
+
+      <section class="content">
+        <h2>第二個小標題</h2>
+        <p>說明文字。</p>
+        <div class="example">
+          <p>用校園或生活情境的辯題示範。</p>
+        </div>
+        <div class="warn">
+          <p>新手常犯的錯。</p>
+        </div>
+      </section>
+
+      <!-- 4. 課堂練習：1 個 10 分鐘內可完成的活動 -->
+      <section class="practice">
+        <h2>課堂練習</h2>
+        <p>活動說明。</p>
+        <ol>
+          <li>步驟一</li>
+          <li>步驟二</li>
+          <li>步驟三</li>
+        </ol>
+      </section>
+
+      <!-- 5. 重點回顧：3～4 點，每點一句話 -->
+      <section class="recap">
+        <h2>重點回顧</h2>
+        <ul>
+          <li>重點一</li>
+          <li>重點二</li>
+          <li>重點三</li>
+        </ul>
+      </section>
+
+    </article>
+    <nav id="lesson-nav"></nav>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="../assets/lessons.js"></script>
+  <script src="../assets/site.js"></script>
+</body>
+</html>
