@@ -1,4 +1,4 @@
-/* 辯論社課手帳 — 全站唯一樣式表（規則見 AGENTS.md 第 9 節） */
+/* 辯論社課手帳 — 全站唯一樣式表（規則見 AGENTS.md） */
 @import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap");
 
 /* ---------- 變數：顏色與字體只能在這裡定義 ---------- */
@@ -179,7 +179,7 @@ code { font-family: ui-monospace, Consolas, monospace; font-size: 0.92em; backgr
 .recap { background: rgba(243, 214, 122, 0.3); border-radius: 10px; padding: 20px 24px 10px; }
 .recap ul { list-style: "✓  "; }
 
-/* ---------- 元件（新增元件請同步更新 AGENTS.md 第 7 節） ---------- */
+/* ---------- 元件（新增元件請同步更新 AGENTS.md） ---------- */
 .sticky, .example, .warn { position: relative; margin: 26px 0 20px; }
 .sticky::before, .example::before, .warn::before, .speech::before {
   font-family: var(--font-hand);
